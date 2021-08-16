@@ -1,1 +1,6 @@
 <h1>Hello</h2>
+<ul>
+  <% @championships.each do |championship| %>
+    <li> <%= championship.name %> </li>
+  <% end %>
+</ul>
