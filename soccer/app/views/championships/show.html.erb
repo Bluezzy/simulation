@@ -1,0 +1,4 @@
+<h1> <%= @championship.name %> </h1>
+<% @championship.teams.each do |team| %>
+  <%= link_to team.name, teams_path(team) %>
+<% end %>

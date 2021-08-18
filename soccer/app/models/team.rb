@@ -1,3 +1,3 @@
 class Team < ApplicationRecord
-  belongs_to :championship
+  belongs_to :championship  
 end
